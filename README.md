@@ -1,4 +1,4 @@
-=php-podcast-rss-archiver=
+# php-podcast-rss-archiver
 
 This is a little script to download podcasts and archive them to S3.
 
@@ -10,7 +10,7 @@ from time to time.
 
 -----
 
-==Installation==
+## Installation
 
 To install, you will need at least PHP5 installed on the command line.  Depending on your version, you may need to 
 install feature for XML.  You also need s3cmd installed and configured and need to have already created a storage
@@ -21,7 +21,7 @@ bucket name.
 
 -----
 
-==Epilogue==
+## Epilogue
 
 This is a really simple script written on a rainy afternoon, but it may be useful to others as a working example
 of getting RSS feeds.  There are many features that are lacking.
