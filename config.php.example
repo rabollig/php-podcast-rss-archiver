@@ -1,0 +1,21 @@
+<?php
+// Just create an array of short names (for file naming) and RSS feed URLS
+
+$podcasts = [
+    'hello_internet' => 'http://www.hellointernet.fm/podcast?format=rss',
+    'nightvalue'     => 'http://feeds.nightvalepresents.com/welcometonightvalepodcast',
+    'planet_money'   => 'https://www.npr.org/rss/podcast.php?id=510289',
+    'cortex'         => 'https://www.relay.fm/cortex/feed',
+//    '' => ''
+];
+
+
+
+// Configuration things you probably won't change often
+
+define('S3BUCKET', 's3://example');
+define("LOG_FILE_NAME", 'already_downloaded_guids.log');
+define("EPISODES_PER_BATCH", 5);
+
+
+
