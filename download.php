@@ -1,9 +1,4 @@
 <?php
-
-define("LOG_FILE_NAME", 'already_downloaded_guids.log');
-define("EPISODES_PER_BATCH", 5);
-
-// Gets list of podcasts
 require "config.php";
 
 // Get all previously downloaded GUIDs
