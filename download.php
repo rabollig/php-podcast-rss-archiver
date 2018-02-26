@@ -60,7 +60,7 @@ foreach ($podcasts as $name => $url) {
         );
         // --delete-after doesn't seem to work.
         if ($return == 0) {
-            exec("rm " . __DIR__ . "/*.mp3");
+            exec("rm -f " . __DIR__ . "/*.mp3");
         }
 
     }
